@@ -1,8 +1,20 @@
 # find-phones
+
 O projeto é um web crawler simples em Python que encontra e extrai números de telefone de um site a partir de uma URL de entrada. O programa utiliza a biblioteca Requests para fazer requisições HTTP e a biblioteca BeautifulSoup para analisar o HTML da página em busca dos números de telefone.
 
-O usuário pode especificar o número de threads que deseja executar para a busca dos telefones, aumentando assim a eficiência do programa. Os números de telefone encontrados são armazenados em um arquivo de texto para uso posterior.
+## Funcionalidades
 
-É importante lembrar que o uso deste programa é restrito a fins educacionais e não deve ser utilizado para fins maliciosos, como a obtenção de informações pessoais ou de contato sem autorização.
+- **Web Crawler**: O programa realiza um crawling no site especificado na URL de entrada em busca de números de telefone.
+- **Utilização de Threads**: O usuário pode especificar o número de threads para aumentar a eficiência da busca dos telefones.
+- **Armazenamento dos Resultados**: Os números de telefone encontrados são armazenados em um arquivo de texto para uso posterior.
 
-Este é um projeto simples, cujo código fala por si só.
+## Como Usar
+
+1. Clone o repositório: `git clone https://github.com/LucasKaliLinux/find-phones.git`
+2. Instale as dependências: `pip install -r requirements.txt`
+3. Execute o programa: `python find_phones.py --url <URL> --threads <num_threads>`
+
+## Exemplo de Uso
+
+```bash
+python find_phones.py --url https://exemplo.com --threads 5
