@@ -12,9 +12,9 @@ O projeto é um web crawler simples em Python que encontra e extrai números de 
 
 1. Clone o repositório: `git clone https://github.com/LucasKaliLinux/find-phones.git`
 2. Instale as dependências: `pip install -r requirements.txt`
-3. Execute o programa: `python find_phones.py --url <URL> --threads <num_threads>`
+3. Execute o programa: `python find_phones.py <URL> <num_threads>`
 
 ## Exemplo de Uso
 
 ```bash
-python find_phones.py --url https://exemplo.com --threads 5
+python find_phones.py https://exemplo.com 5
